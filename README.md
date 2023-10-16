@@ -7,7 +7,7 @@ Copy these basic files to an SD card and run from your F256K like `run circle.ba
 
 ### Programs
 - [star-trek-computah.bas](star-trek-computah.bas) : My first F256 program! Blinken and bloopen...
-- [rainbow-bounce.bas]([)rainbow-bounce.bas) : my second program, experimenting with the circle drawing and creating some very sus physics
+- [rainbow-bounce.bas](rainbow-bounce.bas) : my second program, experimenting with the circle drawing and creating some very sus physics
 - ![rainbow-bounce](/doc/img/20231015_223840_cropped.png?raw=true "rainbow-bounce.bas")
 - [city.bas](city.bas) : Draw a city with some simple for loops - (unfinished, may crash)
 - ![city.bas](/doc/img/20231015_223609_cropped.png?raw=true "city.bas")
@@ -45,6 +45,7 @@ This is not supported in SuperBASIC.  One might think, "I can produce the same v
 An initial idea I had is that classic use of a modulus operator inside of a loop. But it gets messy and is not really reasonable to use/debug. 
 
 Luckily, SuperBASIC implements a `WHILE` block that is effectively the same structure we want.
+
 Example 1b - SuperBASIC WHILE loop
 ```
 100 i = 1
@@ -57,6 +58,7 @@ Produces range `[1, 6, 11, 16]`
 
 ##### `FOR LOOP` NEGATIVE STEPPING
 Another common pattern is counting backwards using `FOR`.
+
 Example 2a - **AppleSoft** BASIC negative STEP:
 ```
 FOR I = 10 TO 1 STEP -1
@@ -64,6 +66,7 @@ FOR I = 10 TO 1 STEP -1
 Produces range `[10, 9, 8, 7, 6, 5, 4, 3, 2, 1]`
 
 In this case, there is a directly analogous way of doing this in SuperBASIC with `FOR`/`DOWNTO`.
+
 Example 2b - **SuperBASIC counting down by 1 with DOWNTO:
 ```
 for i = 10 downto 1
@@ -104,6 +107,7 @@ Example 3b - SuperBASIC `PROC` END close together:
 
 ##### POINT 2 - `PROC` RESULTS
 One wonderful thing about `PROC` is that it can be called with arguments, and  those arguments are scoped to the PROC.
+
 Example 3c - Calling PROC with arguments, from the SuperBASIC manual:
 ```
 100 printmessage(“hello”,42)
@@ -136,6 +140,7 @@ Perhaps it's not ideal but it keeps the code from getting too ugly and youve bas
 It's really helpful to  have a built-in modulus operator as SuperBASIC does.  You will find it very handy for all sorts of interesting and fun maths.
 
 Without a modulus operator, I always had to implement it using the classic integer math cast.
+
 Example 4a - **AppleSoft** BASIC modulus formula
 ```
 IF (Y - INT(Y/4) * 4) = 0 ...
