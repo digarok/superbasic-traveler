@@ -18,7 +18,7 @@ REM SIN RESULT, PI CONST
 90 next
 
 
-100 for t=0 to 359
+100 for t=1 to 360
 110 sinproximate(t) : st# = sr#
 120 cosproximate(t) : ct# = sr#
 130 cosproximate(2*t) : c2t# = sr#
