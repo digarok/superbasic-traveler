@@ -4,6 +4,9 @@ Fun programs and reference documentation for SuperBASIC on the F256 family of co
 ### Usage
 Copy these basic files to an SD card and run from your F256K like `run circle.bas` 
 
+### Video
+There's a silly video to go with this content here:
+https://youtu.be/d8JnxXg3v24
 
 ### Programs
 - [star-trek-computah.bas](star-trek-computah.bas) : My first F256 program! Blinken and bloopen...
