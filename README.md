@@ -5,6 +5,9 @@ Fun programs and reference documentation for SuperBASIC on the F256 family of co
 Copy these basic files to an SD card and run from your F256K like `run circle.bas` 
 
 ### Programs
+- star-trek-computah.bas : my first program! blinken and bloopen
+- rainbow-bounce.bas : my second program, experimenting with the circle drawing and creating some very sus physics 
+![WAAAXS](/doc/img/20231015_223410_cropped.png?raw=true "Employee Data title")
 - sin.bas
 A library for *sine* and *cosine* approximations (procs) called `sinproximate()` and `cosproximate()`
 - circle.bas
