@@ -6,9 +6,17 @@ Copy these basic files to an SD card and run from your F256K like `run circle.ba
 
 ### Programs
 - star-trek-computah.bas : my first program! blinken and bloopen
-- rainbow-bounce.bas : my second program, experimenting with the circle drawing and creating some very sus physics 
-![WAAAXS](/doc/img/20231015_223410_cropped.png?raw=true "Employee Data title")
+- rainbow-bounce.bas : my second program, experimenting with the circle drawing and creating some very sus physics
+
+![rainbow-bounce](/doc/img/20231015_223840_cropped.png?raw=true "rainbow-bounce.bas")
+- city.bas : draw a city with some simple for loops - (unfinished, may crash)
+
+![city.bas](/doc/img/20231015_223609_cropped.png?raw=true "city.bas")
+- city2.bas : add some spice to the city - (unfinished, may crash)
+
+![city2.bas](/doc/img/20231015_223410_cropped.png?raw=true "city2.bas")
 - sin.bas
+
 A library for *sine* and *cosine* approximations (procs) called `sinproximate()` and `cosproximate()`
 - circle.bas
 Shows how to use `sin.bas` library to draw a circle
