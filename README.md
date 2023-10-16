@@ -6,23 +6,23 @@ Copy these basic files to an SD card and run from your F256K like `run circle.ba
 
 
 ### Programs
-- star-trek-computah.bas : My first F256 program! Blinken and bloopen...
-- rainbow-bounce.bas : my second program, experimenting with the circle drawing and creating some very sus physics
+- [star-trek-computah.bas](star-trek-computah.bas) : My first F256 program! Blinken and bloopen...
+- [rainbow-bounce.bas]([)rainbow-bounce.bas) : my second program, experimenting with the circle drawing and creating some very sus physics
 - ![rainbow-bounce](/doc/img/20231015_223840_cropped.png?raw=true "rainbow-bounce.bas")
-- city.bas : Draw a city with some simple for loops - (unfinished, may crash)
+- [city.bas](city.bas) : Draw a city with some simple for loops - (unfinished, may crash)
 - ![city.bas](/doc/img/20231015_223609_cropped.png?raw=true "city.bas")
-- city2.bas : Add some spice to the city - (unfinished, may crash)
+- [city2.bas](city2.bas) : Add some spice to the city - (unfinished, may crash)
 - ![city2.bas](/doc/img/20231015_223410_cropped.png?raw=true "city2.bas")
-- color-chart.bas : Makes it easy to see color values and differences in your chart
+- [color-chart.bas](color-chart.bas) : Makes it easy to see color values and differences in your chart
 - ![color-chart.bas](/doc/img/20231015_223758_cropped.png?raw=true "color-chart.bas")
-- sin.bas : A library for *sine* and *cosine* approximations (procs) called `sinproximate()` and `cosproximate()`
-- drawsin.bas : Visual demo of the sin/cos procs from above
+- [sin.bas](sin.bas) : A library for *sine* and *cosine* approximations (procs) called `sinproximate()` and `cosproximate()`
+- [drawsin.bas](drawsin.bas) : Visual demo of the sin/cos procs from above
 - ![drawsin.bas](/doc/img/20231015_223714_cropped.png?raw=true "drawsin.bas")
-- circle.bas : Use `sin.bas` library to draw a circle
+- [circle.bas](circle.bas) : Use `sin.bas` library to draw a circle
 - ![circle.bas](/doc/img/20231015_223645_cropped.png?raw=true "circle.bas")
-- heart.bas : Calculate more advanced example of why we want to have sin/cos in our BASIC! :)
+- [heart.bas](heart.bas) : Calculate more advanced example of why we want to have sin/cos in our BASIC! :)
 - ![heart.bas](/doc/img/20231015_223943_cropped.png?raw=true "heart.bas")
-- heart2.bas : Fun/fancy version
+- [heart2.bas](heart2.bas) : Fun/fancy version
 - ![heart2.bas](/doc/img/20231015_224048_cropped.png?raw=true "heart2.bas")
 
 
