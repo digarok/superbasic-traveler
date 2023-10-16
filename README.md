@@ -51,10 +51,12 @@ Example 1b - SuperBASIC WHILE loop
 100 i = 1
 110 while i <= 20
 120   print i
-130   i = i + 1
+130   i = i + 5
 140 wend
 ```
 Produces range `[1, 6, 11, 16]`
+
+If you are familiar with the C style for construct you can think of it that way, e.g. `for(i=1; i<=20; i+=5)`.
 
 ##### `FOR LOOP` NEGATIVE STEPPING
 Another common pattern is counting backwards using `FOR`.
