@@ -28,6 +28,10 @@ https://youtu.be/d8JnxXg3v24
 - [heart2.bas](heart2.bas) : Fun/fancy version
 - ![heart2.bas](/doc/img/20231015_224048_cropped.png?raw=true "heart2.bas")
 
+### Games
+- [ski-jr.bas](ski-jr.bas) : Are you good enough to be the Ski Jr?!
+- ![ski-jr.bas](/doc/img/ski_jr_title.png?raw=true "ski-jr.bas")]
+- ![ski-jr.bas](/doc/img/ski_jr_game.png?raw=true "ski-jr.bas")]
 
 ### About SuperBASIC and Gotchas
 Based on the BBC BASIC variant, I found some great additions, as well as some pitfalls when coming from other BASICs like AppleSoft (A Microsoft variant).  
